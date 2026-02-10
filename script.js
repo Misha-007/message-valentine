@@ -7,7 +7,7 @@ const noBtn = document.querySelector(".no-btn");
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Yaaay, see you on the 14th!!";
   gif.src =
-    "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+    "https://tenor.com/view/bear-kiss-bear-kisses-kiss-kisses-love-gif-22536058.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
@@ -20,4 +20,5 @@ noBtn.addEventListener("mouseover", () => {
 
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
+
 });
